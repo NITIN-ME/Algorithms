@@ -13,7 +13,7 @@ class LinkedList{
 	int count = 0;
 	
 	LinkedList(){
-		start = new Node();
+		//start = new Node();
 		start = NULL;
 		cout<<"Constructor called"<<endl;
 	}
