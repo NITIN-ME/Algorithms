@@ -33,7 +33,7 @@ string InfixToPostfix(string s){
 				st.pop();
 			}
 			else{
-				while(val(st.top()) >= val(ch) && !st.empty() && ch != '('){
+				while(val(st.top()) > val(ch) && !st.empty() && ch != '('){
 					f += st.top();
 					//cout<<"ADDING2: "<<st.top()<<endl;
 					//cout<<"POPPING3: "<<st.top()<<endl;
